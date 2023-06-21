@@ -157,6 +157,14 @@ ul.publications li:last-of-type {
 }
 
 
+details > summary {
+  list-style: none;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
 /*
  * Dummy devices (replace them with your own or something else entirely!)
  */
