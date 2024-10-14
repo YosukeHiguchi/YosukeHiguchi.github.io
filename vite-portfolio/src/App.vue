@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto py-12 md:pt-24 max-w-4xl px-0">
+  <div class="mx-auto py-12 md:pt-24 max-w-4xl px-8">
     <div class="flex flex-col gap-8 md:flex-row md:gap-12 md:items-center">
       <img
         class="rounded-lg h-48 w-48 md:h-64 md:w-64 shadow-lg"
@@ -151,7 +151,7 @@
         <WorkExperienceItem
           class="mt-6"
           period="Apr. 2021 - Dec. 2021 Oct. 2020 - Mar. 2021"
-          company="Mitsubishi Electric Research Laboratories"
+          company="Mitsubishi Electric Research Labs."
           companyImg="/img/logo-merl.png"
           companyNote="| Massachusetts, USA"
           companyHref="https://www.merl.com/"
@@ -220,7 +220,7 @@
         <WorkExperienceItem
           class="mt-6"
           period="Aug. 2018 - Sept. 2018"
-          company="NTT Communication Science Laboratories"
+          company="NTT Communication Science Labs."
           companyImg="/img/logo-ntt.png"
           companyNote="| Kanagawa, Japan"
           companyHref="https://www.rd.ntt/e/cs/"
@@ -269,12 +269,16 @@
           </li>
           <li>Thesis Title:<br>
             <a
-            class="hover:text-neutral-200 hover:underline text-nowrap"
+            class="hover:text-neutral-200 hover:underline"
             href="https://waseda.repo.nii.ac.jp/records/2002443"
             target="_blank"
             >
-              <i class="fas fa-link"></i>
-              "Incorporating Linguistic Cues for End-to-End Speech Recognition"</a
+              "Incorporating Linguistic Cues for End-to-End Speech Recognition"
+              <img
+                class="inline-flex text-white h-4 stroke-neutral-400"
+                src="/img/external_link.svg"
+              />
+              </a
             >
           </li>
         </WorkExperienceItem>
