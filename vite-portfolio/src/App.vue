@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto py-12 md:pt-24 max-w-4xl px-8">
+  <div class="mx-auto py-12 md:pt-24 max-w-4xl px-4">
     <div class="flex flex-col gap-8 md:flex-row md:gap-12 md:items-center">
       <img
         class="rounded-lg h-48 w-48 md:h-64 md:w-64 shadow-lg"
@@ -81,12 +81,12 @@
         <div class="mt-16 md:text-xl text-center text-justify">
           Researcher at the
           <a
-            class="text-teal-300 hover:text-teal-200 hover:underline text-nowrap"
+            class="text-teal-300 hover:text-teal-200 hover:underline"
             href="http://www.pcl.cs.waseda.ac.jp/"
             target="_blank"
             >Perceptual Computing Laboratory</a
           >,
-          Waseda University,
+          Waseda University, Japan,
           working on speech and language understanding.
         </div>
       </div>
