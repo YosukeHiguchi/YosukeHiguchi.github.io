@@ -114,7 +114,6 @@
           company="Google LLC"
           companyImg="/img/logo-google.png"
           companyNote="| New York, USA"
-          companyHref="https://www.lycorp.co.jp/"
           jobTitle="Research Intern"
         >
           <li>Mentor:
