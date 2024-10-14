@@ -103,7 +103,7 @@
           company="Waseda University"
           companyImg="/img/logo-waseda.png"
           companyNote="| Tokyo, Japan"
-          companyHref="https://www.fse.sci.waseda.ac.jp/"
+          companyHref="https://www.fse.sci.waseda.ac.jp/en/"
           jobTitle="Research Assistant Professor"
         >
           <li>Working on developing speech understanding systems for dialog systems</li>
@@ -154,7 +154,7 @@
           company="Mitsubishi Electric Research Laboratories"
           companyImg="/img/logo-merl.png"
           companyNote="| Massachusetts, USA"
-          companyHref="https://www.lti.cs.cmu.edu/"
+          companyHref="https://www.merl.com/"
           jobTitle="Part-Time Researcher ← Research Internship (Remote)"
         >
           <li>Mentor:
@@ -206,12 +206,12 @@
           <li>Mentor:
             <a
               class="text-teal-300 hover:text-teal-200 hover:underline"
-              href="https://sites.google.com/site/suzukimasayuki/">
+              href="https://scholar.google.com/citations?user=up5mTKIAAAAJ&hl=en/">
               Masayuki Suzuki</a
             > and
             <a
               class="text-teal-300 hover:text-teal-200 hover:underline"
-              href="https://researcher.watson.ibm.com/researcher/view.php?person=jp-GAKUTO/">
+              href="https://research.ibm.com/people/gakuto-kurata/">
               Gakuto Kurata</a
             >
           </li>
@@ -223,7 +223,7 @@
           company="NTT Communication Science Laboratories"
           companyImg="/img/logo-ntt.png"
           companyNote="| Kanagawa, Japan"
-          companyHref="https://www.ibm.com/us-en?lnk=fcc/"
+          companyHref="https://www.rd.ntt/e/cs/"
           jobTitle="Research Intern"
         >
           <li>Mentor:
@@ -248,7 +248,7 @@
           period="Apr. 2021 - Mar. 2024"
           company="Ph.D. in Computer Science and Engineering"
           companyImg="/img/logo-waseda.png"
-          companyHref="https://www.fse.sci.waseda.ac.jp/"
+          companyHref="https://www.fse.sci.waseda.ac.jp/en/"
           jobTitle="Waseda University, Tokyo, Japan"
         >
           <li>
@@ -263,7 +263,7 @@
             Co-Supervisor:
             <a
               class="text-teal-300 hover:text-teal-200 hover:underline"
-              href="https://sites.google.com/site/ogatetsu/"
+              href="https://sites.google.com/site/ogatetsu/eng/"
               >Tetsuji Ogawa</a
             >
           </li>
@@ -282,7 +282,7 @@
           period="Apr. 2019 - Mar. 2021"
           company="M.E. in Computer Science and Engineering"
           companyImg="/img/logo-waseda.png"
-          companyHref="https://www.fse.sci.waseda.ac.jp/"
+          companyHref="https://www.fse.sci.waseda.ac.jp/en/"
           jobTitle="Waseda University, Tokyo, Japan"
         >
           <li>
@@ -297,7 +297,7 @@
             Co-Supervisor:
             <a
               class="text-teal-300 hover:text-teal-200 hover:underline"
-              href="https://sites.google.com/site/ogatetsu/"
+              href="https://sites.google.com/site/ogatetsu/eng/"
               >Tetsuji Ogawa</a
             >
           </li>
@@ -310,7 +310,7 @@
           company="B.E. in Computer Science and Engineering"
           companySub="(with Minor in Intermedia Art and Science)"
           companyImg="/img/logo-waseda.png"
-          companyHref="https://www.fse.sci.waseda.ac.jp/"
+          companyHref="https://www.fse.sci.waseda.ac.jp/en/"
           jobTitle="Waseda University, Tokyo, Japan"
         >
           <li>
@@ -325,7 +325,7 @@
             Co-Supervisor:
             <a
               class="text-teal-300 hover:text-teal-200 hover:underline"
-              href="https://sites.google.com/site/ogatetsu/"
+              href="https://sites.google.com/site/ogatetsu/eng/"
               >Tetsuji Ogawa</a
             > and
             <a
