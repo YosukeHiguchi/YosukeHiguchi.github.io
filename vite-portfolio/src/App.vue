@@ -255,7 +255,7 @@
             Supervisor:
             <a
               class="text-teal-300 hover:text-teal-200 hover:underline"
-              href="http://www.pcl.cs.waseda.ac.jp/members/kobayashi/"
+              href="https://researchmap.jp/tetsunori?lang=en/"
               >Tetsunori Kobayashi</a
             >
           </li>
@@ -267,7 +267,7 @@
               >Tetsuji Ogawa</a
             >
           </li>
-          <li>Thesis Title:<br>
+          <li>Thesis:
             <a
             class="hover:text-neutral-200 hover:underline"
             href="https://waseda.repo.nii.ac.jp/records/2002443"
@@ -293,7 +293,7 @@
             Supervisor:
             <a
               class="text-teal-300 hover:text-teal-200 hover:underline"
-              href="http://www.pcl.cs.waseda.ac.jp/members/kobayashi/"
+              href="https://researchmap.jp/tetsunori?lang=en/"
               >Tetsunori Kobayashi</a
             >
           </li>
@@ -305,9 +305,7 @@
               >Tetsuji Ogawa</a
             >
           </li>
-          <li>Thesis Title:
-            <br>"Non-Autoregressive End-to-End Speech Recognition with CTC and Mask-predict"
-          </li>
+          <li>Thesis: "Non-Autoregressive End-to-End Speech Recognition with CTC and Mask-predict"</li>
         </WorkExperienceItem>
         <WorkExperienceItem
           period="Apr. 2015 - Mar. 2019"
@@ -321,7 +319,7 @@
             Supervisor:
             <a
               class="text-teal-300 hover:text-teal-200 hover:underline"
-              href="http://www.pcl.cs.waseda.ac.jp/members/kobayashi/"
+              href="https://researchmap.jp/tetsunori?lang=en/"
               >Tetsunori Kobayashi</a
             >
           </li>
@@ -338,9 +336,7 @@
               >Naohiro Tawara</a
             >
           </li>
-          <li>Thesis Title:
-            <br>"Speaker Invariant Feature Extraction for Zero-Resource Languages"
-          </li>
+          <li>Thesis: "Speaker Invariant Feature Extraction for Zero-Resource Languages"</li>
         </WorkExperienceItem>
       </div>
     </div>
