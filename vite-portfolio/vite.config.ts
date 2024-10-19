@@ -7,5 +7,12 @@ export default defineConfig({
   plugins: [vue(), pluginChecker({ typescript: true })],
   build: {
     outDir: '../docs',
+    rollupOptions: {
+      output: {
+        entryFileNames: `assets/[name].js`,
+        chunkFileNames: `assets/[name].js`,
+        assetFileNames: `assets/[name].[ext]`,
+      },
+    },
   }
 })
