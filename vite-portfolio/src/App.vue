@@ -638,6 +638,12 @@
         >
           <div class="flex flex-col gap-4 mt-4">
             <PublicationItem
+              title="End-to-End 音声認識における指示チューニングされた大規模言語モデルの活用"
+              authors="樋口陽祐，小川哲司，小林哲則"
+              publishedAt="情報処理学会研究報告 (NL)"
+              date="December 2024"
+            />
+            <PublicationItem
               title="事前学習済みマスク言語モデルを用いた End-to-End 音声認識"
               authors="樋口陽祐，小川哲司，小林哲則，渡部晋治"
               publishedAt="日本音響学会研究発表会講演論文集 (ASJ)"
@@ -722,6 +728,12 @@
             v-if="showDomesticConfCoAuthor"
         >
           <div class="flex flex-col gap-4 mt-4">
+            <PublicationItem
+              title="再帰的フィードバックを用いた階層的 End-to-End 音声認識"
+              authors="楠奈穂美，樋口陽祐，小川哲司，小林哲則"
+              publishedAt="情報処理学会研究報告 (SLP)"
+              date="December 2024"
+            />
             <PublicationItem
               title="歌唱者埋め込み表現抽出器の構築において歌唱者内の音響変動を重要視することの効果の検証"
               authors="当間佐耶佳，有賀智輝，樋口陽祐，早坂一寿，執行里恵，小川哲司"
