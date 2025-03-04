@@ -369,15 +369,6 @@
       </div>
       <div class="flex flex-col gap-4 mt-4">
         <PublicationItem
-          title="Harnessing the Zero-Shot Power of Instruction-Tuned Large Language Model in End-to-End Speech Recognition"
-          authors="Yosuke Higuchi, Tetsuji Ogawa, Tetsunori Kobayashi"
-          publishedAt="arXiv"
-          linkArxiv="https://arxiv.org/abs/2309.10524"
-          date="September 2023"
-        />
-      </div>
-      <div class="flex flex-col gap-4 mt-4">
-        <PublicationItem
           title="Non-autoregressive End-to-end Speech Translation with Parallel Autoregressive Rescoring"
           authors="Hirofumi Inaguma, Yosuke Higuchi, Kevin Duh, Tatsuya Kawahara, Shinji Watanabe"
           publishedAt="arXiv"
@@ -401,6 +392,15 @@
       <h3 class="mt-8 text-2xl font-bold">
         <span class="text-neutral-500">###</span> International Conferences (Peer-Reviewed, First Author)
       </h3>
+      <div class="flex flex-col gap-4 mt-4">
+        <PublicationItem
+          title="Harnessing the Zero-Shot Power of Instruction-Tuned Large Language Model in End-to-End Speech Recognition"
+          authors="Yosuke Higuchi, Tetsuji Ogawa, Tetsunori Kobayashi"
+          publishedAt="2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+          linkArxiv="https://arxiv.org/abs/2309.10524"
+          date="April 2025 (to appear)"
+        />
+      </div>
       <div class="flex flex-col gap-4 mt-4">
         <PublicationItem
           title="Mask-Conformer: Augmenting Conformer with Mask-Predict Decoder"
@@ -515,13 +515,16 @@
           title="Differences Between Singer and Speaker Verification: Training Singer Feature Representation Extractor Utilizing Singing Voice Characteristics"
           authors="Sayaka Toma, Tomoki Ariga, Yosuke Higuchi, Ichiju Hayasaka, Rie Shigyo, Tetsuji Ogawa"
           publishedAt="Asia-Pacific Signal and Information Processing Association Annual Summit and Conference 2024 (APSIPA)"
-          date="December 2024 (to appear)"
+          date="December 2024"
+          linkIeee="https://ieeexplore.ieee.org/document/10849339"
+          linkPdf="http://www.apsipa2024.org/files/papers/467.pdf"
         />
         <PublicationItem
           title="Exploring Impact of Prioritizing Intra-Singer Acoustic Variations on Singer Embedding Extractor Construction for Singer Verification"
           authors="Sayaka Toma, Tomoki Ariga, Yosuke Higuchi, Ichiju Hayasaka, Rie Shigyo, Tetsuji Ogawa"
           publishedAt="27th International Conference of the Oriental COCOSDA (O-COCOSDA)"
           date="October 2024"
+          linkIeee="https://ieeexplore.ieee.org/document/10800601/"
           prize="Best Paper Candidate"
         />
         <PublicationItem
@@ -642,6 +645,7 @@
               authors="樋口陽祐，小川哲司，小林哲則"
               publishedAt="情報処理学会研究報告 (NL)"
               date="December 2024"
+              prize="シンポジウム奨励賞，若手奨励賞"
             />
             <PublicationItem
               title="事前学習済みマスク言語モデルを用いた End-to-End 音声認識"
@@ -729,6 +733,18 @@
         >
           <div class="flex flex-col gap-4 mt-4">
             <PublicationItem
+              title="階層的マルチタスク学習と Contextual Biasing を用いた End-to-End 音声認識"
+              authors="楠奈穂美，樋口陽祐，小川哲司，小林哲則"
+              publishedAt="日本音響学会研究発表会講演論文集 (ASJ)"
+              date="March 2025 (to appear)"
+            />
+            <PublicationItem
+              title="歌唱音声の特性を考慮した歌唱者照合のための頑健な特徴抽出器の構築 "
+              authors="当間佐耶佳，有賀智輝，樋口陽祐，早坂一寿，執行里恵，小川哲司"
+              publishedAt="日本音響学会研究発表会講演論文集 (ASJ)"
+              date="March 2025 (to appear)"
+            />
+            <PublicationItem
               title="再帰的フィードバックを用いた階層的 End-to-End 音声認識"
               authors="楠奈穂美，樋口陽祐，小川哲司，小林哲則"
               publishedAt="情報処理学会研究報告 (SLP)"
@@ -809,6 +825,18 @@
       </h3>
       <div class="flex flex-col gap-3 mt-4">
         <AwardItem
+          title="Young Researcher's Award in Natural Language Processing Field"
+          from="the Information Processing Society of Japan (IPSJ)"
+          date="Dec. 2024"
+          href="https://sites.google.com/sig-nl.ipsj.or.jp/sig-nl/%E6%8E%88%E8%B3%9E/young?authuser=0#h.6td3vbmxjw4i"
+        />
+        <AwardItem
+          title="Encouragement Award in Spoken Language Processing and Natural Language Processing Fields"
+          from="Spoken Language Processing and Natural Language Processing Symposium"
+          date="Dec. 2024"
+          href="http://www.ieice.org/~nlc/nlsympo24p.html"
+        />
+        <AwardItem
           title="Best Reviewer Award"
           from="IEEE ASRU 2023"
           date="Dec. 2023"
@@ -874,7 +902,7 @@
       </div>
     </div>
     <div class="mt-16 w-full text-center text-neutral-400 text-sm">
-      Updated on 2024/10/12. This site was developed from
+      Updated on 2025/01/08. This site was developed from
       <a
         class="text-teal-500 hover:text-teal-400 hover:underline"
         href="https://github.com/takatoy/takatoy.github.io"
