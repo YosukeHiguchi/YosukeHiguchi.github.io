@@ -3,7 +3,7 @@
     <div class="flex flex-col gap-8 md:flex-row md:gap-12 md:items-center">
       <img
         class="rounded-lg h-48 w-48 md:h-64 md:w-64 shadow-lg"
-        src="/img/portrait-20240326.jpg"
+        src="/img/portrait-20250328.jpg"
       />
       <div class="flex flex-col items-center">
         <h1 class="font-bold text-4xl text-white md:text-5xl">
@@ -98,19 +98,40 @@
         <span class="text-teal-300">##</span> Work Experience
       </h2>
       <div class="flex flex-col mt-4">
+        <!-- <WorkExperienceItem
+          period="June 2025 ~ Present"
+          company="Meta FAIR"
+          companyImg="/img/logo-meta.png"
+          companyNote="| New York, USA"
+          companyHref="https://ai.meta.com/research/"
+          jobTitle="Postdoctoral Researcher"
+        ></WorkExperienceItem>
         <WorkExperienceItem
-          period="Apr. 2024 - Present"
+          class="mt-6" -->
+        <WorkExperienceItem
+          period="May 2025 ~ Present"
+          company="SB Intuitions"
+          companyImg="/img/logo-sb.png"
+          companyNote="| Tokyo, Japan"
+          companyHref="https://www.sbintuitions.co.jp/"
+          jobTitle="Part-Time Researcher"
+        >
+          <li>Working on developing speech-augmented large language model</li>
+        </WorkExperienceItem>
+        <WorkExperienceItem
+          class="mt-6"
+          period="Apr. 2024 ~ Present"
           company="Waseda University"
           companyImg="/img/logo-waseda.png"
           companyNote="| Tokyo, Japan"
           companyHref="https://www.fse.sci.waseda.ac.jp/en/"
-          jobTitle="Research Assistant Professor"
+          jobTitle="Junior Researcher (Research Assistant Professor)"
         >
-          <li>Working on developing speech understanding systems for dialog systems</li>
+        <li>Working on developing speech understanding systems for dialog systems</li>
         </WorkExperienceItem>
         <WorkExperienceItem
           class="mt-6"
-          period="Oct. 2022 - Jan. 2023"
+          period="Oct. 2022 ~ Jan. 2023"
           company="Google LLC"
           companyImg="/img/logo-google.png"
           companyNote="| New York, USA"
@@ -132,7 +153,7 @@
         </WorkExperienceItem>
         <WorkExperienceItem
           class="mt-6"
-          period="Mar. 2022 - June 2022"
+          period="Mar. 2022 ~ June 2022"
           company="Carnegie Mellon University"
           companyImg="/img/logo-cmu-lti.png"
           companyNote="| Pennsylvania, USA"
@@ -150,7 +171,7 @@
         </WorkExperienceItem>
         <WorkExperienceItem
           class="mt-6"
-          period="Apr. 2021 - Dec. 2021 Oct. 2020 - Mar. 2021"
+          period="Apr. 2021 ~ Dec. 2021 Oct. 2020 ~ Mar. 2021"
           company="Mitsubishi Electric Research Labs."
           companyImg="/img/logo-merl.png"
           companyNote="| Massachusetts, USA"
@@ -178,7 +199,7 @@
         </WorkExperienceItem>
         <WorkExperienceItem
           class="mt-6"
-          period="Dec. 2019 - Mar. 2020"
+          period="Dec. 2019 ~ Mar. 2020"
           company="Johns Hopkins University"
           companyImg="/img/logo-jhu-clsp.png"
           companyNote="| Maryland, USA"
@@ -196,7 +217,7 @@
         </WorkExperienceItem>
         <WorkExperienceItem
           class="mt-6"
-          period="June 2019 - Oct. 2019"
+          period="June 2019 ~ Oct. 2019"
           company="IBM Research AI"
           companyImg="/img/logo-ibm.png"
           companyNote="| Tokyo, Japan"
@@ -219,7 +240,7 @@
         </WorkExperienceItem>
         <WorkExperienceItem
           class="mt-6"
-          period="Aug. 2018 - Sept. 2018"
+          period="Aug. 2018 ~ Sept. 2018"
           company="NTT Communication Science Labs."
           companyImg="/img/logo-ntt.png"
           companyNote="| Kanagawa, Japan"
@@ -245,7 +266,7 @@
       </h2>
       <div class="flex flex-col gap-6 mt-4">
         <WorkExperienceItem
-          period="Apr. 2021 - Mar. 2024"
+          period="Apr. 2021 ~ Mar. 2024"
           company="Ph.D. in Computer Science and Engineering"
           companyImg="/img/logo-waseda.png"
           companyHref="https://www.fse.sci.waseda.ac.jp/en/"
@@ -283,7 +304,7 @@
           </li>
         </WorkExperienceItem>
         <WorkExperienceItem
-          period="Apr. 2019 - Mar. 2021"
+          period="Apr. 2019 ~ Mar. 2021"
           company="M.E. in Computer Science and Engineering"
           companyImg="/img/logo-waseda.png"
           companyHref="https://www.fse.sci.waseda.ac.jp/en/"
@@ -308,7 +329,7 @@
           <li>Thesis: "Non-Autoregressive End-to-End Speech Recognition with CTC and Mask-predict"</li>
         </WorkExperienceItem>
         <WorkExperienceItem
-          period="Apr. 2015 - Mar. 2019"
+          period="Apr. 2015 ~ Mar. 2019"
           company="B.E. in Computer Science and Engineering"
           companySub="(with Minor in Intermedia Art and Science)"
           companyImg="/img/logo-waseda.png"
@@ -392,13 +413,22 @@
       <h3 class="mt-8 text-2xl font-bold">
         <span class="text-neutral-500">###</span> International Conferences (Peer-Reviewed, First Author)
       </h3>
+      <!-- <div class="flex flex-col gap-4 mt-4">
+        <PublicationItem
+          title="End-to-End Speech Translation Guided by Robust Translation Capability of Large Language Model"
+          authors="Yosuke Higuchi, Tetsuji Ogawa, Tetsunori Kobayashi"
+          publishedAt="26th Annual Conference of International Speech Communication Association (INTERSPEECH)"
+          date="August 2025 (to appear)"
+        />
+      </div> -->
       <div class="flex flex-col gap-4 mt-4">
         <PublicationItem
-          title="Harnessing the Zero-Shot Power of Instruction-Tuned Large Language Model in End-to-End Speech Recognition"
+          title="Harnessing the Zero-Shot Power of Instruction-Tuned Large Language Model for Guiding End-to-End Speech Recognition"
           authors="Yosuke Higuchi, Tetsuji Ogawa, Tetsunori Kobayashi"
           publishedAt="2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
           linkArxiv="https://arxiv.org/abs/2309.10524"
-          date="April 2025 (to appear)"
+          linkIeee="https://ieeexplore.ieee.org/abstract/document/10890174"
+          date="April 2025"
         />
       </div>
       <div class="flex flex-col gap-4 mt-4">
@@ -736,13 +766,13 @@
               title="階層的マルチタスク学習と Contextual Biasing を用いた End-to-End 音声認識"
               authors="楠奈穂美，樋口陽祐，小川哲司，小林哲則"
               publishedAt="日本音響学会研究発表会講演論文集 (ASJ)"
-              date="March 2025 (to appear)"
+              date="March 2025"
             />
             <PublicationItem
               title="歌唱音声の特性を考慮した歌唱者照合のための頑健な特徴抽出器の構築 "
               authors="当間佐耶佳，有賀智輝，樋口陽祐，早坂一寿，執行里恵，小川哲司"
               publishedAt="日本音響学会研究発表会講演論文集 (ASJ)"
-              date="March 2025 (to appear)"
+              date="March 2025"
             />
             <PublicationItem
               title="再帰的フィードバックを用いた階層的 End-to-End 音声認識"
@@ -873,36 +903,36 @@
         <AwardItem
           title="Super Global University (Visiting to Carnegie Mellon University)"
           from="ICT & Robotics, Waseda University"
-          date="Mar. 2022 - June 2022"
+          date="Mar. 2022 ~ June 2022"
           href="https://www.waseda.jp/fsci/ict-robotics/study-abroad/4464"
         />
         <AwardItem
           title="ACT-X Frontier of Mathematics and Information Science"
           from="Japan Science and Technology Agency (JST)"
-          date="Oct. 2021 - Mar. 2024"
+          date="Oct. 2021 ~ Mar. 2024"
           href="https://www.jst.go.jp/kisoken/act-x/application/2021/210921/210921act-x.pdf"
         />
         <AwardItem
           title="Research Fellowship for Young Scientists (DC1)"
           from="Japan Society for the Promotion of Science (JSPS)"
-          date="Apr. 2021 - Mar. 2024"
+          date="Apr. 2021 ~ Mar. 2024"
           href="https://www.jsps.go.jp/j-pd/data/saiyo_ichiran/r03/dc1/r3_dc1.pdf"
         />
         <AwardItem
           title="Super Global University (Visiting to Johns Hopking University)"
           from="ICT & Robotics, Waseda University"
-          date="Dec. 2019 - Mar. 2020"
+          date="Dec. 2019 ~ Mar. 2020"
           href="https://www.waseda.jp/fsci/ict-robotics/study-abroad-en/3312"
         />
         <AwardItem
           title="Repayment Exemption for Graduate Students with Excellent Achievements (Type I; full-exemption)"
           from="Japan Student Services Organization (JASSO)"
-          date="Apr. 2019 - Mar. 2021"
+          date="Apr. 2019 ~ Mar. 2021"
         />
       </div>
     </div>
     <div class="mt-16 w-full text-center text-neutral-400 text-sm">
-      Updated on 2025/01/08. This site was developed from
+      Updated on 2025/05/01. This site was developed from
       <a
         class="text-teal-500 hover:text-teal-400 hover:underline"
         href="https://github.com/takatoy/takatoy.github.io"
