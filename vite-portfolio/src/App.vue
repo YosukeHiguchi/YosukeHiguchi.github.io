@@ -14,12 +14,12 @@
           <a
             data-tooltip-target="tooltip-email"
             data-tooltip-placement="bottom"
-            href="mailto:higuchi@pcl.cs.waseda.ac.jp"
+            href="mailto:yosukeh@meta.com"
             target="_blank"
             ><i class="fas fa-envelope hover:text-white"></i>
           </a>
           <div id="tooltip-email" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-base font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-600">
-            higuchi@pcl.cs.waseda.ac.jp
+            yosukeh@meta.com
             <div class="tooltip-arrow" data-popper-arrow></div>
           </div>
           <a
@@ -69,25 +69,23 @@
           <a
             data-tooltip-target="tooltip-location"
             data-tooltip-placement="bottom"
-            href="https://maps.app.goo.gl/yZsPrHh862DaqaHD6"
+            href="https://maps.app.goo.gl/WrbXGKNF4ejAubSk7"
             target="_blank"
             ><i class="fas fa-map-marker-alt hover:text-white"></i></a
           >
           </div>
           <div id="tooltip-location" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-base font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-600">
-            Tokyo, Japan
+            New York, USA
             <div class="tooltip-arrow" data-popper-arrow></div>
           </div>
         <div class="mt-16 md:text-xl text-center text-justify">
-          Researcher at the
+          Postdoctoral Researcher at
           <a
             class="text-teal-300 hover:text-teal-200 hover:underline"
-            href="http://www.pcl.cs.waseda.ac.jp/"
+            href="https://ai.meta.com/research/"
             target="_blank"
-            >Perceptual Computing Laboratory</a
-          >,
-          Waseda University, Japan,
-          working on speech and language understanding.
+            >Meta FAIR</a
+          > in New York, working on speech and language understanding.
         </div>
       </div>
     </div>
@@ -98,36 +96,37 @@
         <span class="text-teal-300">##</span> Work Experience
       </h2>
       <div class="flex flex-col mt-4">
-        <!-- <WorkExperienceItem
+        <WorkExperienceItem
           period="June 2025 ~ Present"
           company="Meta FAIR"
           companyImg="/img/logo-meta.png"
           companyNote="| New York, USA"
           companyHref="https://ai.meta.com/research/"
           jobTitle="Postdoctoral Researcher"
-        ></WorkExperienceItem>
+        >
+          <li>Working on developing spoken language model</li>
+        </WorkExperienceItem>
         <WorkExperienceItem
-          class="mt-6" -->
-        <WorkExperienceItem
-          period="May 2025 ~ Present"
+          class="mt-6"
+          period="May 2025"
           company="SB Intuitions"
           companyImg="/img/logo-sb.png"
           companyNote="| Tokyo, Japan"
           companyHref="https://www.sbintuitions.co.jp/"
           jobTitle="Part-Time Researcher"
         >
-          <li>Working on developing speech-augmented large language model</li>
+          <li>Worked on developing speech-augmented large language model</li>
         </WorkExperienceItem>
         <WorkExperienceItem
           class="mt-6"
-          period="Apr. 2024 ~ Present"
+          period="Apr. 2024 ~ May 2025"
           company="Waseda University"
           companyImg="/img/logo-waseda.png"
           companyNote="| Tokyo, Japan"
           companyHref="https://www.fse.sci.waseda.ac.jp/en/"
-          jobTitle="Junior Researcher (Research Assistant Professor)"
+          jobTitle="Junior Researcher / Research Assistant Professor"
         >
-        <li>Working on developing speech understanding systems for dialog systems</li>
+          <li>Worked on developing speech understanding systems for dialog systems</li>
         </WorkExperienceItem>
         <WorkExperienceItem
           class="mt-6"
@@ -171,12 +170,13 @@
         </WorkExperienceItem>
         <WorkExperienceItem
           class="mt-6"
-          period="Apr. 2021 ~ Dec. 2021 Oct. 2020 ~ Mar. 2021"
+          period="Oct. 2020 ~ Dec. 2021"
           company="Mitsubishi Electric Research Labs."
           companyImg="/img/logo-merl.png"
           companyNote="| Massachusetts, USA"
           companyHref="https://www.merl.com/"
-          jobTitle="Part-Time Researcher ← Research Internship (Remote)"
+          jobTitle="Part-Time Researcher (Apr. 2021 ~)"
+          jobTitle2="Research Intern (~ Mar. 2021)"
         >
           <li>Mentor:
             <a
@@ -413,14 +413,15 @@
       <h3 class="mt-8 text-2xl font-bold">
         <span class="text-neutral-500">###</span> International Conferences (Peer-Reviewed, First Author)
       </h3>
-      <!-- <div class="flex flex-col gap-4 mt-4">
+      <div class="flex flex-col gap-4 mt-4">
         <PublicationItem
           title="End-to-End Speech Translation Guided by Robust Translation Capability of Large Language Model"
           authors="Yosuke Higuchi, Tetsuji Ogawa, Tetsunori Kobayashi"
           publishedAt="26th Annual Conference of International Speech Communication Association (INTERSPEECH)"
-          date="August 2025 (to appear)"
+          linkIsca="https://www.isca-archive.org/interspeech_2025/higuchi25_interspeech.html"
+          date="August 2025"
         />
-      </div> -->
+      </div>
       <div class="flex flex-col gap-4 mt-4">
         <PublicationItem
           title="Harnessing the Zero-Shot Power of Instruction-Tuned Large Language Model for Guiding End-to-End Speech Recognition"
@@ -541,6 +542,12 @@
         <span class="text-neutral-500">###</span> International Conferences (Peer-Reviewed, Co-Author)
       </h3>
       <div class="flex flex-col gap-4 mt-4">
+        <PublicationItem
+          title="Lyric-Aware Karaoke Background Video Selection Using Large Language Models and Moment Retrieval"
+          authors="Tomoki Ariga, Jun Taniguchi, Yosuke Higuchi, Sayaka Toma, Kunihiro Abe, Rie Shigyo, Tetsuji Ogawa"
+          publishedAt="Asia-Pacific Signal and Information Processing Association Annual Summit and Conference 2025 (APSIPA)"
+          date="October 2025 (to appear)"
+        />
         <PublicationItem
           title="Differences Between Singer and Speaker Verification: Training Singer Feature Representation Extractor Utilizing Singing Voice Characteristics"
           authors="Sayaka Toma, Tomoki Ariga, Yosuke Higuchi, Ichiju Hayasaka, Rie Shigyo, Tetsuji Ogawa"
@@ -763,6 +770,12 @@
         >
           <div class="flex flex-col gap-4 mt-4">
             <PublicationItem
+              title="大規模言語モデルによる歌詞解釈記述とモーメント検索を用いたカラオケ背景映像の選択"
+              authors="有賀智輝，谷口純，樋口陽祐，当間佐耶佳，阿部国大，執行里恵，小川哲司"
+              publishedAt="第28回画像の認識・理解シンポジウム (MIRU2025)"
+              date="July 2025 (to appear)"
+            />
+            <PublicationItem
               title="階層的マルチタスク学習と Contextual Biasing を用いた End-to-End 音声認識"
               authors="楠奈穂美，樋口陽祐，小川哲司，小林哲則"
               publishedAt="日本音響学会研究発表会講演論文集 (ASJ)"
@@ -780,6 +793,8 @@
               publishedAt="情報処理学会研究報告 (SLP)"
               date="December 2024"
             />
+              <!-- prize="山下記念研究賞"
+            /> -->
             <PublicationItem
               title="歌唱者埋め込み表現抽出器の構築において歌唱者内の音響変動を重要視することの効果の検証"
               authors="当間佐耶佳，有賀智輝，樋口陽祐，早坂一寿，執行里恵，小川哲司"
@@ -856,7 +871,7 @@
       <div class="flex flex-col gap-3 mt-4">
         <AwardItem
           title="Young Researcher's Award in Natural Language Processing Field"
-          from="the Information Processing Society of Japan (IPSJ)"
+          from="the Information Processing Society of Japan (IPSJ) SIG-NL"
           date="Dec. 2024"
           href="https://sites.google.com/sig-nl.ipsj.or.jp/sig-nl/%E6%8E%88%E8%B3%9E/young?authuser=0#h.6td3vbmxjw4i"
         />
@@ -931,14 +946,21 @@
         />
       </div>
     </div>
-    <div class="mt-16 w-full text-center text-neutral-400 text-sm">
-      Updated on 2025/05/01. This site was developed from
-      <a
-        class="text-teal-500 hover:text-teal-400 hover:underline"
-        href="https://github.com/takatoy/takatoy.github.io"
-        >takatoy.github.io</a
-      >.
-    </div>
+
+
+  </div>
+
+  <!-- Footer -->
+  <div class="mt-4 w-full text-center text-neutral-400 text-sm">
+    Updated on 2025/08/29. This site was developed from
+    <a
+      class="text-teal-500 hover:text-teal-400 hover:underline"
+      href="https://github.com/takatoy/takatoy.github.io"
+      >takatoy.github.io</a
+    >.
+  </div>
+  <div class="mt-0 panorama full-bleed">
+    <img src="/img/footer.jpg" alt="Panorama" class="panorama__img" />
   </div>
 </template>
 

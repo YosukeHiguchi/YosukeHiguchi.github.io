@@ -22,14 +22,16 @@
               >
               <span v-else>{{ props.company }}</span>
             </span>
-            <span class="ml-2 text-neutral-400" v-if="companyNote">{{
-              companyNote
+            <span class="ml-2 text-neutral-400" v-if="props.companyNote">{{
+              props.companyNote
             }}</span>
           </div>
-          <div class="text-white -mt-1" v-if="companySub">{{
-              companySub
+          <div class="text-white -mt-1" v-if="props.companySub">{{
+              props.companySub
             }}</div>
           <div class="text-neutral-400 font-bold mt-1">{{ props.jobTitle }}</div>
+          <div class="text-neutral-400 font-bold mt-1" v-if="props.jobTitle2">{{
+              props.jobTitle2 }}</div>
         </div>
       </div>
       <ul
@@ -51,5 +53,6 @@ const props = defineProps<{
   companyHref?: string;
   companyNote?: string;
   jobTitle: string;
+  jobTitle2?: string;
 }>();
 </script>
