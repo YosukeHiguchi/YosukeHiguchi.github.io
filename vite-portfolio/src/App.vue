@@ -85,7 +85,7 @@
             href="https://ai.meta.com/research/"
             target="_blank"
             >Meta FAIR</a
-          > in New York, working on speech and language understanding.
+          > in New York, working on spoken language modeling.
         </div>
       </div>
     </div>
